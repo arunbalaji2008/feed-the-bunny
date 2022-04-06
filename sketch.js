@@ -113,7 +113,7 @@ function draw()
     World.remove(engine.world,fruit);
     fruit = null;
    //Code to change the animation of a bunny when a collision with fruit and bunny is detected. 
-   bunny.changeAnimation('crying',sad);
+   bunny.changeAnimation('eating',eat);
   }
   
   if(collide(fruit,bubble,40) == true)
